@@ -1,0 +1,11 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.js.contentflow">
+
+    <browser:resourceDirectory
+        name="contentflow"
+        directory="static"
+    />
+
+</configure>
