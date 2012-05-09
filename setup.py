@@ -5,7 +5,7 @@ version = '1.0'
 
 setup(name='collective.js.contentflow',
       version=version,
-      description="contentflow js integration",
+      description="contentflow js integration for plone",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -14,10 +14,10 @@ setup(name='collective.js.contentflow',
         "Framework :: Plone",
         "Programming Language :: Python",
         ],
-      keywords='',
-      author='',
-      author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      keywords='plone contentflow js',
+      author='Nathan Van Gheem',
+      author_email='vangheem@gmail.com',
+      url='https://github.com/collective/collective.js.contentflow',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['collective', 'collective.js'],
